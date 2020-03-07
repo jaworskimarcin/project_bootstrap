@@ -1,0 +1,108 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+section,
+footer {
+    padding: 100px 100px;
+}
+
+.nav-custom {
+    background-color: #444;
+}
+
+.nav-custom .navbar-brand {
+    color: #c2c2c2;
+}
+
+.nav-custom .nav-item,
+.nav-custom .navbar-nav .nav-link {
+    color: #c2c2c2;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+header {
+    background: url('../IMG/form-background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.heading {
+    background-color: rgba(0, 0, 0, 0.35);
+    color: #fff;
+}
+
+.heading .col-2 {
+    padding: inherit;
+    padding-top: 20px;
+}
+
+
+.main-form {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #c2c2c2;
+}
+
+form {
+    padding: 0 15px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+#text-orange {
+    color: orange;
+}
+
+.heading h2,
+.heading p {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.orange-button {
+    background-color: orange;
+    border-color: orange;
+}
+
+.light {
+    color: #c2c2c2;
+}
+
+.light h1 {
+    color: #fff;
+    margin-top: 100px;
+}
+
+.btn-orange,
+.btn-transparent {
+    color: #fff;
+}
+
+.btn-orange {
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+.btn-transparent {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.btn-transparent:hover {
+    color: #c2c2c2;
+}
+
+footer {
+    background-color: #f8f8f8;
+}

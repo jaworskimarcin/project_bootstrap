@@ -1,0 +1,10 @@
+@media all and (max-width: 1199px) {
+    .video-inner {
+        display: flex;
+        align-items: center;
+    }
+
+    .video-inner iframe {
+        width: 100%;
+    }
+}
